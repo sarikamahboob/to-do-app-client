@@ -76,7 +76,7 @@ const AddedTasks = () => {
               <tr key={index}>
                 <th>{index + 1}</th>
                 <td className={task.status === "completed" ? "strike" : ""}>
-                  {task.name} {task.status}
+                  {task.name}
                 </td>
                 <td className={task.status === "completed" ? "strike" : ""}>
                   {task.description}
